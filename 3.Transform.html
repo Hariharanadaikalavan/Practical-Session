@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color:black;
+            height:200px;
+            width:150px;
+            border-radius:10px;
+            color: azure;
+            z-index: 0;
+            transform: rotate(-15deg);
+
+        }
+        .div2{
+            background-color: white;
+            width: 150px;
+            height: 220px;
+           color: black;
+           border-radius: 10px;
+          
+           transform: rotate(15deg);
+           position: relative;
+           left: 200px;
+           bottom: 25px;
+           z-index: 0;
+        }
+        .div3{
+            border:1px solid black;
+            background-color: white;
+            width: 150px;
+            height: 220px;
+            color: black;
+            border-radius: 10px;
+            transform: rotate(15deg);
+            position: relative;
+          
+                 
+        }
+        body{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height:500px;
+           
+
+        }
+        .subdiv{
+            position: relative;
+            top:90px;
+            font-size: 10px;
+            
+        }
+    </style>
+</head>
+<body style="background-color: rgb(255, 192, 229);">
+    <div class="div1">
+       <p>__________are better</p>
+       <p>than________.</p>
+       <div class="subdiv">Cards Against Developer</div>
+    </div><br>
+    <div class="div2">
+        <p>Spaces</p>
+    </div>
+    <div class="div3">
+        <p>Tabs</p>
+    </div>
+</body>
+</html>
