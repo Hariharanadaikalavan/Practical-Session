@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .parent{
+        display:flex;
+        gap: 20px;
+        flex-direction: column;
+       }
+        
+        .child{
+            background-color: blue;
+            height:200px;
+            width:200px;
+        }
+        .child2{
+            background-color: red;
+            
+            height:200px;
+            width:200px;
+        }
+        @media screen and (max-width:412px){
+        .parent{
+        display:flex;
+        gap: 20px;
+        flex-direction: row;
+       }
+        
+        .child{
+            background-color: blue;
+            height:200px;
+            width:200px;
+        }
+        .child2{
+            background-color: red;
+            
+            height:200px;
+            width:200px;
+        }
+    }
+    </style>
+</head>
+<body>
+   <div class="parent">
+    <div class="child">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore perspiciatis nobis deserunt reiciendis, soluta facilis nulla tenetur quas sit beatae culpa ut, ad quo, vero neque nam. Dolor, ducimus facilis.</p></div>
+        <div class="child2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tempora cum eaque repellat minima expedita cupiditate eius, quasi dignissimos, quibusdam quae non dolor? Nostrum incidunt, nisi sequi unde hic doloremque.</p>
+        </div>
+</div>
+</body>
+</html>
