@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:100vh;
+            background-image: linear-gradient(to left bottom, rgb(71, 48, 39) 30%, rgb(205, 156, 132));
+        }
+        .container{
+            display: flex;
+            margin-left: 150px;
+        }
+        .box1{
+            width: 300px;
+            height: 450px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 100px;
+            /* border: 5px solid black; */
+            box-shadow: 0 0 25px 5px black;
+            position: relative;
+        }
+        .box2{
+            width: 300px;
+            height: 450px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 300px;
+            /* border: 5px solid black; */
+            box-shadow: 0 0 25px 5px black;
+            position: absolute;
+            /* transform: rotatex(25deg); */
+            transform: perspective(1200px) rotatey(45deg);
+        }
+        .backimg{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+        }
+        .face{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border-radius: 50%;
+            margin-top: 70px;
+        }
+        .box3{
+            height:450px;
+            width:5px;
+            background-color: white;
+            margin-left: 200px;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+        .box4{
+            width: 300px;
+            height: 450px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 800px;
+            /* border: 5px solid black; */
+            box-shadow: 0 0 25px 5px black;
+            position: absolute;
+           
+
+        }
+        .box5{
+            width: 300px;
+            height: 450px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 600px;
+            /* border: 5px solid black; */
+            box-shadow: 0 0 25px 5px black;
+            position: absolute;
+            transform: perspective(1200px) rotatey(-45deg);
+        }
+    </style>
+</head>
+<body>
+   <div class="container"> 
+    <div class="box1">
+        <img class="backimg" src="https://images.hdqwalls.com/wallpapers/looking-far-away-4k-lb.jpg">
+       <center> <img class="face" src="https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png">
+        <h2>Inna Corman</h2>
+        <h3>Product Manager</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, suscipit eum. Maxime molestias sint nemo minima unde laboriosam quae necessitatibus!</p><hr>
+<h3>↪️Auto Rotation</h3></center>
+    </div>
+    <div class="box2">
+        <img class="backimg" src="https://images.hdqwalls.com/wallpapers/looking-far-away-4k-lb.jpg">
+       <center> <img class="face" src="https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png">
+        <h2>Inna Corman</h2>
+        <h3>Product Manager</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, suscipit eum. Maxime molestias sint nemo minima unde laboriosam quae necessitatibus!</p><hr>
+<h3>↪️Auto Rotation</h3></center>
+    </div>
+    <div class="box3"></div>
+    <div class="box4"><img class="backimg" src="https://images.hdqwalls.com/wallpapers/looking-far-away-4k-lb.jpg">
+        <center> <img class="face" src="https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png">
+         <h2>Inna Corman</h2>
+         <h3>Product Manager</h3></div>
+    <div class="box5"><img class="backimg" src="https://images.hdqwalls.com/wallpapers/looking-far-away-4k-lb.jpg">
+        <center> <img class="face" src="https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png">
+         <h2>Inna Corman</h2>
+         <h3>Product Manager</h3></div></div> 
+</body>
+</html>
