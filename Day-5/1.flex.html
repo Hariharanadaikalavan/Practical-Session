@@ -5,34 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
-        
-        .div1{
+     .div1{
              height:200px;
              background-image: url(https://media.istockphoto.com/id/1358013032/photo/web-development-concept.webp?b=1&s=170667a&w=0&k=20&c=aAR7goX4e7jDiUfx1SNA7lD04WldUv6okpifv80xGcw=);
              background-repeat: no-repeat;
              background-size: cover;
-             
+                       justify-content: center;
         }
         .div2{
             display: flex;
-            
+            justify-content: space-between;
+            align-items: center;
+        }
+        .div3{
+            columns: 3;
+            column-gap:30px;
+            justify-content: left;
+            column-width: 5px;
         }
     </style>
 </head>
 <body>
     <div class="div2">
-        Developer   
-        <button style="border-radius: 10px;">Home</button>
-        <button style="border-radius: 10px;">About</button>
-       <button style="border-radius: 10px;">Contact</button>
-    </div>
+      <h1>Developer</h1>  
+      <div> 
+        <button style="border-radius: 10px;height:20px">Home</button>
+        <button style="border-radius: 10px;height:20px">About</button>
+       <button style="border-radius: 10px; height:20px">Contact</button>
+    </div>    </div>
     <div class="div1">
            <h1 style="text-transform: uppercase;">A Web Developer</h1>
-           <h2 style="text-transform: uppercase;"> I am a we developer and i love to create website</h2>
+           <h2 style="text-transform: uppercase;">I am a we developer and i love to create website</h2>
            <button style="background-color: aqua; border-radius: 10px;">Learn more</button>
     </div>
-    <div></div>
+    <hr>
+    <div class="div3">
+        <div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptatum voluptates ipsum optio eos quos qui explicabo debitis consequatur architecto iusto nihil, dolor numquam, totam voluptatibus natus aliquid earum est?</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptatum voluptates ipsum optio eos quos qui explicabo debitis consequatur architecto iusto nihil, dolor numquam, totam voluptatibus natus aliquid earum est?</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, voluptatum voluptates ipsum optio eos quos qui explicabo debitis consequatur architecto iusto nihil, dolor numquam, totam voluptatibus natus aliquid earum est?</p>
+    </div></div>
     <div></div>
 </body>
 </html>
