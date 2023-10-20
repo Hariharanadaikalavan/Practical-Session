@@ -1,0 +1,12 @@
+var petDog="Rex";
+var petCat="Pepper";
+console.log(petCat);
+console.log(petDog);
+console.log("My pet Dog's name is:"+petDog);
+console.log("My pet cat's name is:"+petCat);
+var catsound="Purr";
+var dogsound="Woof";
+console.log(petDog+"say"+dogsound);
+console.log(petCat+"say"+catsound);
+var catsound="meow";
+console.log(petCat+"nowsays"+ catsound);
