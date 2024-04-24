@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic UI Task</title>
+</head>
+<body>
+    <h1>Dynamic UI Task</h1>
+    <label for="numberOfOptions">Select a number:</label>
+    <input type="number" id="numberOfOptions" onchange="generateOptions()">
+    <br>
+    <label for="options">Options:</label>
+    <select id="options"></select>
+
+    <script>
+        function generateOptions() {
+            const numberOfOptions = parseInt(document.getElementById('numberOfOptions').value);
+            const selectElement = document.getElementById('options');
+            selectElement.innerHTML = '';
+
+            for (let i = 1; i <= numberOfOptions; i++) {
+                const option = document.createElement('option');
+                option.text = `Option ${i}`;
+                option.value = i;
+                selectElement.add(option);
+            }
+        }
+    </script>
+</body>
+</html>
